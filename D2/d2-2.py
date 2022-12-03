@@ -1,4 +1,4 @@
-with open("input.txt","r") as f: data=f.readlines()
+with open("input.txt","r") as f: data=f.read().splitlines()
 d = [[x[0],x[2]] for x in data] 
 points = 0
 beats = {

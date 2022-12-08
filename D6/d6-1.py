@@ -10,4 +10,3 @@ else:
         if len(set(queue)) == 4:
             print(i+1)
             break
-
